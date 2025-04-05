@@ -13,3 +13,12 @@ CounterTest >> testSetAndGet [
 	s count: 5.
 	self assert: s count equals: 5 
 ]
+
+{ #category : 'running' }
+CounterTest >> testSetAndGet2 [
+
+	| s |
+	s := Counter new.
+	s count: 5.
+	self assert: s count equals: 5
+]
